@@ -2,7 +2,7 @@
 	"dependencies": "thermalfoundation",
 	"populate": {
 		"copper": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -28,7 +28,7 @@
 			}
 		},
 		"tin": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -76,7 +76,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 4,
+			"cluster-count": 7,
 			"min-height": 5,
 			"max-height": 30,
 			"retrogen": "true",
@@ -90,7 +90,7 @@
 			}
 		},
 		"lead": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -138,7 +138,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 4
 			},
-			"cluster-count": 2,
+			"cluster-count": 4,
 			"min-height": 5,
 			"max-height": 20,
 			"retrogen": "true",
@@ -188,7 +188,7 @@
 			}
 		},
 		"aluminum": {
-			"enabled": "false",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -214,7 +214,7 @@
 			}
 		},
 		"iridium": {
-			"enabled": "false",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
